@@ -11,16 +11,21 @@ let comp: AppComponent;
 let fixture: ComponentFixture<AppComponent>;
 
 describe('AppComponent', () => {
-  beforeEach(() => TestBed.configureTestingModule({
-    imports: [RouterTestingModule],
-    declarations: [
-      AppComponent,
-      HeroesStubComponent
-    ]
-  }).compileComponents().then(() => {
-    fixture = TestBed.createComponent(AppComponent);
-    comp = fixture.componentInstance;
-  }));
+  beforeEach(() => 
+    TestBed.configureTestingModule({
+      imports: [RouterTestingModule],
+      declarations: [
+        AppComponent,
+        HeroesStubComponent
+      ]
+    })
+    .compileComponents()
+    .then(() => {
+      fixture = TestBed.createComponent(AppComponent);
+      comp = fixture.componentInstance;
+      fixture.detectChanges();
+    })
+  );
 
   tests();  
 });
