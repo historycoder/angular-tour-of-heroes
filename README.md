@@ -2,7 +2,7 @@
 This project follows Angular's Tour of Heroes tutorial.
 
 ## Tutorial Exercises
-- [ ] Create a project: https://angular.io/tutorial/tour-of-heroes/toh-pt0
+- [x] Create a project: https://angular.io/tutorial/tour-of-heroes/toh-pt0
 - [ ] The hero editor:
 - [ ] Display a list:
 - [ ] Create a feature component:
