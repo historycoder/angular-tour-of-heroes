@@ -17,4 +17,4 @@ This project follows Angular's Tour of Heroes tutorial.
 ## Project Code
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
-- Unit tests via [Karma](https://karma-runner.github.io).
+- Unit tests via [Karma](https://karma-runner.github.io) version 6.4.0.
